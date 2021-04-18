@@ -8,7 +8,7 @@ const UserOrdersList = () => {
   const { email } = loggedIn;
   const [ordersCollection, setOrdersCollection] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/showUserOrderList?email=" + email, {
+    fetch("https://damp-fjord-88036.herokuapp.com/showUserOrderList?email=" + email, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

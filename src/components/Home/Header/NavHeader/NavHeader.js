@@ -22,9 +22,12 @@ const NavHeader = () => {
   useEffect(() => {
     let isMounted = true;
     verifyEmail &&
-      fetch(`http://localhost:5000/adminCheck/${verifyEmail}`, {
-        method: "GET",
-      })
+      fetch(
+        `https://damp-fjord-88036.herokuapp.com/adminCheck/${verifyEmail}`,
+        {
+          method: "GET",
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           if (isMounted) {

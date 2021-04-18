@@ -28,7 +28,7 @@ const ShowAllOrdersList = (props) => {
       status: e.target.value,
     };
     console.log(bookDetails);
-    fetch(`http://localhost:5000/update/${_id}`, {
+    fetch(`https://damp-fjord-88036.herokuapp.com/update/${_id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(bookDetails),

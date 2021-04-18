@@ -17,7 +17,7 @@ const UserReview = () => {
       description: data.description,
     };
     console.log(reviewData);
-    const url = `http://localhost:5000/addReview`;
+    const url = `https://damp-fjord-88036.herokuapp.com/addReview`;
     fetch(url, {
       method: "POST",
       headers: {

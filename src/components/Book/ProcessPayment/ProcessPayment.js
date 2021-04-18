@@ -15,7 +15,7 @@ const ProcessPayment = () => {
   const [errorMessageValue, setErrorMessageValue] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/singleService/${id}`, {
+    fetch(`https://damp-fjord-88036.herokuapp.com/singleService/${id}`, {
       method: "GET",
     })
       .then((res) => res.json())

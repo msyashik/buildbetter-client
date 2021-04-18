@@ -22,7 +22,7 @@ const AddService = () => {
       productImage: imageURL,
     };
     console.log(eventData);
-    const url = `http://localhost:5000/addService`;
+    const url = `https://damp-fjord-88036.herokuapp.com/addService`;
     fetch(url, {
       method: "POST",
       headers: {

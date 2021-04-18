@@ -70,7 +70,7 @@ const PaymentInfo = ({
         currentStatus: "Pending",
       };
       console.log(userTotalServiceInfo);
-      const url = "http://localhost:5000/userOrder";
+      const url = "https://damp-fjord-88036.herokuapp.com/userOrder";
       fetch(url, {
         method: "POST",
         headers: {

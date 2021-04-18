@@ -13,7 +13,7 @@ const MakeAdmin = () => {
     const adminData = {
       email: data.newAdmin,
     };
-    const url = `http://localhost:5000/makeAdmin`;
+    const url = `https://damp-fjord-88036.herokuapp.com/makeAdmin`;
     fetch(url, {
       method: "POST",
       headers: {

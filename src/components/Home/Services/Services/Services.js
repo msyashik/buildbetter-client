@@ -4,7 +4,7 @@ import ServiceInfo from "../ServiceInfo/ServiceInfo";
 const Services = () => {
   const [architectureServices, setArchitectureServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://damp-fjord-88036.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => {
         setArchitectureServices(data);

@@ -4,7 +4,7 @@ import ReferenceInfo from "../ReferenceInfo/ReferenceInfo";
 const References = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://damp-fjord-88036.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);

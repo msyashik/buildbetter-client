@@ -9,7 +9,7 @@ const ManageServicesInfo = (props) => {
     _id,
   } = props.singleService;
   const handleDelete = (id) => {
-    fetch(`http://localhost:5000/deleteService/${id}`, {
+    fetch(`https://damp-fjord-88036.herokuapp.com/deleteService/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

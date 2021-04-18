@@ -4,7 +4,7 @@ import ShowAllOrdersList from "../ShowAllOrdersList/ShowAllOrdersList";
 const OrderList = () => {
   const [usersOrders, setUsersOrders] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allUsersOrders")
+    fetch("https://damp-fjord-88036.herokuapp.com/allUsersOrders")
       .then((res) => res.json())
       .then((data) => {
         //console.log(data);
