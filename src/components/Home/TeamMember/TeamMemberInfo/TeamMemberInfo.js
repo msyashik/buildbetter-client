@@ -2,7 +2,7 @@ import React from "react";
 
 const TeamMemberInfo = ({ architect }) => {
   return (
-    <div className="col-md-4">
+    <div className="col-md-4 mt-3">
       <div className="card">
         <img
           style={{ height: "300px" }}

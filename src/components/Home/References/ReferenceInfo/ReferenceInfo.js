@@ -6,7 +6,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 const ReferenceInfo = (props) => {
   const { userName, designation, description, company } = props.review;
   return (
-    <div className="col-md-4">
+    <div className="col-md-4 mt-3">
       <div className="card h-100">
         <div className="card-body text-center">
           <p className="card-title">{userName}</p>
