@@ -1,0 +1,11 @@
+.hover-style:hover {
+  color: white;
+}
+@media screen and (max-device-width: 768px) {
+  .cardMobileView {
+    text-align: center !important;
+  }
+  .bookMobileView {
+    margin-top: 2%;
+  }
+}

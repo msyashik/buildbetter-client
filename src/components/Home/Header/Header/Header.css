@@ -1,0 +1,49 @@
+.headerContainer {
+  height: 36rem !important;
+  position: relative;
+}
+.headerContainer::after {
+  height: 36rem;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 30%;
+  right: 7%;
+  background-image: url("../../../../Images/matthew-henry-VviFtDJakYk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-color: #3A4256!important; */
+  z-index: -50;
+  opacity: 0.75;
+}
+
+@media only screen and (min-device-width: 511px) and (max-device-width: 767px) {
+  .headerContainer::after {
+    height: 24rem !important;
+    top: 13rem !important;
+    z-index: -50;
+    opacity: 0.75;
+  }
+  .imgHeader {
+    padding: 1rem !important;
+  }
+}
+@media only screen and (min-device-width: 361px) and (max-device-width: 511px) {
+  .headerContainer::after {
+    height: 18rem !important;
+    top: 18rem !important;
+  }
+  .imgHeader {
+    padding: 1rem !important;
+  }
+}
+
+@media only screen and (min-device-width: 200px) and (max-device-width: 360px) {
+  .headerContainer::after {
+    height: 17rem !important;
+    top: 20rem !important;
+  }
+  .imgHeader {
+    padding: 1rem !important;
+  }
+}

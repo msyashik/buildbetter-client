@@ -1,0 +1,6 @@
+.serviceAnimation {
+  transition: margin-top 0.01s ease-in-out;
+}
+.serviceAnimation:hover {
+  margin-top: 10px;
+}
