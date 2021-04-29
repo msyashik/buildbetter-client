@@ -21,8 +21,8 @@ const ServiceInfo = (props) => {
   };
 
   return (
-    <div className="col-md-4 serviceAnimation mt-3">
-      <div className="card h-100">
+    <div className="col-md-4 mt-3">
+      <div className="card h-100 serviceAnimation">
         <img className="card-img-top h-50" src={productImage} alt="" />
         <div className="card-body">
           <h5 className="card-title">{serviceTitle}</h5>
