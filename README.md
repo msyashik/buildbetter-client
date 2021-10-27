@@ -28,7 +28,7 @@
 - Sign in and Sign up using Google and Facebook
 - JWT Token
 - Context API
-- MongoDB Cloud
+- MongoDB
   <br/>
 
 ### Connect with me
